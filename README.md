@@ -1,27 +1,37 @@
-#  Monitoramento da Qualidade do Ar
+# Monitoramento da Qualidade do Ar
 
-Aplicação desenvolvida em **Python** com **Streamlit** e **Selenium**, que realiza a verificação do índice de qualidade do ar e exibe mensagens sobre o nível de poluição e seus impactos na saúde e no meio ambiente.
+Aplicação desenvolvida em **Python** com **Streamlit**, que realiza a consulta do **Índice de Qualidade do Ar (IQA)** em tempo real utilizando a **API Open-Meteo**.  
+O sistema exibe mensagens interativas sobre o nível de poluição e fornece orientações sobre cuidados com a saúde e o meio ambiente.
 
 ---
 
 ## 🚀 Funcionalidades
-- Consulta automática do índice de qualidade do ar no site [Weather.com](https://weather.com).
-- Classificação da qualidade do ar com mensagens explicativas.
-- Interface amigável e estilizada em Streamlit.
-- Projeto com foco em **conscientização ambiental**, inspirado na **ODS 11 – Cidades e Comunidades Sustentáveis**.
+
+- Consulta automática da **qualidade do ar** com base na cidade digitada pelo usuário.  
+- Integração com a **API Open-Meteo** para obter dados ambientais atualizados.  
+- Classificação do ar em níveis (boa, moderada, ruim, perigosa, etc).  
+- Exibição de mensagens personalizadas com recomendações de saúde e sustentabilidade.  
+- Interface moderna e amigável desenvolvida com **Streamlit**.  
+- Projeto inspirado na **ODS 11 – Cidades e Comunidades Sustentáveis**.
 
 ---
 
-## 🧠 Fontes
-- [Weather.com](https://weather.com) — Dados de qualidade do ar.  
+## 🧩 Exemplo de uso
+
+O usuário digita o nome de sua cidade (ex: *Hortolândia*) e clica em **“🔍 Verificar Qualidade do Ar”**.  
+A aplicação exibe:
+- O valor do **Índice de Qualidade do Ar (AQI)**;  
+- A classificação (boa, moderada, ruim...);  
+- Uma mensagem educativa com recomendações específicas.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
-- Python 3.10+
-- Streamlit
-- Selenium
-- ChromeDriver
+
+- **Python 3.10+**  
+- **Streamlit** — Interface web interativa  
+- **Requests** — Comunicação com APIs REST  
+- **Open-Meteo API** — Dados meteorológicos e de qualidade do ar  
 
 ---
 
